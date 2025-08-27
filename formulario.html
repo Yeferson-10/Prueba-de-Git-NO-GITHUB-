@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio nro 3 con Box Model</title>
+
+    <!-- <link rel="stylesheet" href="./css/estilo.css"> -->
+
+</head>
+
+<body>
+
+    <header>
+        <h3 class="titulosuperior">Escuela Normal Superior Nº40 "Mariano Moreno"</h3>
+        <h1 class="titulocentro">Tecnicaturas en Desarrollo de Software</h1>
+        <h3 class="tituloinferior"><a href="index.html">Inicio</a> </h3>
+    </header>
+
+
+
+
+    <section class="formulario">
+        <h2>Contactate con nosotros</h2>
+
+        <form name="formulario" method="POST" action="">
+
+
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" name="nombre" id="nonbre" placeholder="Ingrese su nombre" required>
+
+            <label for="lugar">Ciudad.</label>
+            <select name="lugar" id="lugar">
+                <option value="0" selected> elegir una opción </option>
+                <option value="1">San Cristóbal</option>
+                <option value="2">Huanqueros</option>
+                <option value="3">Capivara</option>
+                <option value="4">La Cabral</option>
+                <option value="5">Arrufo</option>
+            </select>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" name="correo" id="correo" placeholder="ingrese su correo electrónico" required>
+
+            <label for="msg">Mensaje</label>
+            <textarea name="msg" id="msg" placeholder="deje su mensaje aquí...." rows="7"></textarea>
+
+            <button type="submit" class="guardar">Enviar la consulta</button>
+            <button type="reset" class="cancelar">Borrar los datos</button>
+
+
+
+        </form>
+
+    </section>
+
+    <footer>
+        <h4>Derechos reservados 2025</h4>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
