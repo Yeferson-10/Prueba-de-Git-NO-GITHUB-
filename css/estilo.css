@@ -40,7 +40,7 @@ header {
 }
 
 .titulosuperior{
-    background-color:  #0a33ed;
+    background-color:  #0db7f7;
     padding: 10px;
     letter-spacing: 5px;
 
@@ -49,7 +49,7 @@ header {
 
 
 .titulocentro {
-    color: white;
+    color: black;
     font-family: 'Rubik', sans-serif;
     font-size: 40px;
     margin: 26px;  
@@ -59,7 +59,7 @@ header {
 
 
 .tituloinferior{
-    font-size: 20px;
+    font-size: 30px;
     background-color: #0db7f7;
     color: white;
     text-align: right;
